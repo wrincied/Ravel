@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family:'Product Sans' ;
+    src: url('../fonts/Product\ Sans\ Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    .wrapper{
+        margin: 39px 120px;
+        header{
+            nav{
+                display: flex;
+                justify-content: space-between; 
+                align-items: center;
+                .navigation{
+                    ul{
+                        display: flex;
+
+                        li{
+                            padding: 0 32px;
+                            a{ 
+                                color: #2C2C2C;
+                                font-family: Noto Serif;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 25px;
+                            }
+                        }
+                    }
+
+                }
+                .nav__left-side{
+                    display: flex;
+                    align-items: center;
+                    .left-side__user{
+                        padding-right: 15px;
+
+                        a{
+                            img{
+                                padding-right: 15px;
+                            }
+                            span{
+                                font-size: 18px;
+                                font-weight: 400;
+                                font-family: 'Noto Serif', serif;
+                            }
+                            display: flex;
+                            align-items: center;
+                            flex-direction: row;
+                        }
+
+                        border-right: 1px solid #F1E0DD;
+                    }
+                    .left-side__search{
+                        padding-left: 15px;
+                    }
+                }
+            }
+            .hero{
+                margin-top: 36px;
+                background-image: url('../img/hero-banner\ 2.png');
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                min-height: 100vh;
+                width: 100%;
+                height: 100%;   
+                display: flex;
+                .hero__info{
+                    margin-top: 285px;
+                    margin-left: 135px;
+                    .info__text{
+
+                        p{
+                            font-family: Noto Serif;
+                            font-size: 84px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 112px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                    }
+                    }
+                    .info__button{
+                        width: 100%;
+                        max-width: 200px;
+                        max-height: 60px;
+                        height: 100%;
+                        background-color: #FF715B;
+                        display: flex;
+                        align-items:center;
+                        justify-content: center;
+                        margin-top: 50px;
+                            p{
+                            color: #FFFFFF;
+                            font-family: Noto Serif;
+                            font-size: 18px;
+                            font-weight: 500;
+                            line-height: 25px;
+                            }
+                    }
+                }
+            }
+            .discover-block{
+                display: flex; 
+                align-items: center; 
+                justify-content: space-between;
+                padding: 45px 45px;
+                box-shadow: 0px 10px 30px 5px rgba(219, 200, 197, 0.2);
+                margin-bottom: 180px;
+                .discover__place{
+                    p{
+                        font-family: Product Sans;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 19px;
+                        color: #A79997;
+                    }
+                    .place{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center; 
+                        .place__text{
+                            padding-right: 120px;
+                            border-bottom: 1px solid #F5EBE9;
+                            padding-bottom: 10px;
+                            border-radius: 0.5px;
+                            p{
+                                font-family: Noto Serif;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 25px;
+                                color: #FF715B;
+                                
+                            }
+                        }
+                    }
+                }
+                .discover__date{
+                    p{
+                        font-family: Product Sans;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 19px;
+                        color: #A79997;
+
+                    }
+                    .date{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center; 
+
+                        .date__text{
+                            padding-right: 120px;
+                            border-bottom: 1px solid #F5EBE9;
+                            padding-bottom: 10px;
+                            border-radius: 0.5px;
+                            p{
+                                font-family: Noto Serif;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 25px;
+                                color: #FF715B;
+                            }
+  
+                        }
+                    }
+                }
+            }
+                .discover__price{
+                    p{
+                        font-family: Product Sans;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 19px;
+                        color: #A79997;
+                    }
+                    .price{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center; 
+                        .price__text{
+                            padding-right: 100px;
+                            border-bottom: 1px solid #F5EBE9;
+                            padding-bottom: 10px;
+                            border-radius: 0.5px;
+                            p{
+                                font-family: Noto Serif;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 25px;
+                                letter-spacing: 0em;
+                                color: #FF715B;
+                            }
+                    }
+                    }
+
+                }
+                .discover__button{
+                    width: 200px;
+                    height: 60px;
+                    background-color: #FF715B;
+                    display: flex;
+                    align-items:center;
+                    justify-content: center;
+                        .button__text{
+                            p{
+                                font-family: Noto Serif;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 25px;
+                                letter-spacing: 0em;
+                                color: #FFFFFF;
+                            }
+                        }
+                }
+            }
+        }
+        .main-content{
+            
+            .content__card-main{
+                margin: 0 125px;
+                .content__card{             
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    text-align: center;
+                    margin: 180px 25px;
+                    .card{
+                        &.white{
+                            background-color: white;
+                            box-shadow: 0px 12px 30px rgba(200, 180, 180, 0.2);
+                        }
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        width: 310px;
+                        height: 310px;
+                        background-color:#F8F8F8 ;
+                        
+                        .card__title{
+                            font-family: Noto Serif;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 33px;
+                            color: #2C2C2C;
+                        }
+                        .card__text{
+                            max-height: 300px;
+                            max-width: 250px;
+                            text-align: center;
+                            font-family: Product Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 26px;
+                            color: #A79997;
+                        }
+                    }
+                }
+            }
+            .top-destinations{
+                display: flex;
+                width: 100%;
+                height: 100%;
+                .destinations__info{
+                    .info__title{
+                        padding-bottom: 40px;
+                        max-width: 419px;
+                        p{
+                            font-family: Noto Serif;
+                            font-size: 48px;
+                            font-style: normal;
+                            font-weight: 800;
+                            line-height: 65px;
+                            letter-spacing: 0em;
+                            color: #2C2C2C;
+                            span{
+                                color: #FF715B;
+                            }
+                        }
+                    }
+                    .info__text{
+                        padding-bottom: 80px;
+                        max-width: 420px;
+                        p{
+                            font-family: Product Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 26px;
+                            letter-spacing: 0em;
+                            color: #A79997;
+                        }
+                    }
+                    .info__button{
+                        width: 100%;
+                        max-width: 200px;
+                        max-height: 60px;
+                        height: 100%;
+                        background-color: #FF715B;
+                        display: flex;
+                        align-items:center;
+                        justify-content: center;
+                        p{
+                            font-family: Noto Serif;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 25px;
+                            letter-spacing: 0em;
+                            text-align: center;
+                            color: #FFFFFF;
+
+                        }
+                    }
+                }
+                .distinations__card{
+                    display: flex;
+                    flex-direction: row;
+                    
+                    .card{
+                        margin: 0 30px;
+                        img{
+                            width: 100%
+                        }
+                    }
+                }
+            }
+        }
+    }
